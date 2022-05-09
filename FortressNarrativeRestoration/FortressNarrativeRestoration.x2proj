@@ -24,6 +24,12 @@
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\XComGame.int" />
     <Content Include="Src\FortressNarrativeRestoration\Classes\X2DownloadableContentInfo_FortressNarrativeRestoration.uc" />
+    <Content Include="Src\FortressNarrativeRestoration\Classes\X2EventListener_FortressNarrative.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\FortressNarrativeRestoration\Classes\XComGameStateContext_FortressNarrative.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <SolutionRoot>$(MSBuildProjectDirectory)\..\</SolutionRoot>
